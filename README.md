@@ -8,7 +8,7 @@ MicroMall é uma plataforma de e-commerce projetada para ser robusta, escalável
 
 - **Arquitetura de Microserviços**: Cada serviço é independente, garantindo escalabilidade e manutenção facilitada.
 - **Eureka Integration**: Registro e descoberta de serviços otimizados com o Eureka Server.
-- **Gateway API com Zuul**: Roteamento eficiente de solicitações para os microserviços correspondentes.
+- **Gateway API**: Roteamento eficiente de solicitações para os microserviços correspondentes.
 - **Integração RabbitMQ**: Comunicação entre serviços facilitada e otimizada com RabbitMQ.
 - **Documentação Swagger**: Interface amigável para explorar e testar a API.
 - **Contenerização com Docker**: Cada serviço é empacotado em contêineres para implantação simplificada.
