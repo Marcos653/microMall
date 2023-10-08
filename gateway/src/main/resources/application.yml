@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: SPRING-CLOUD-GATEWAY
+
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: authenticationRoute
+          uri: {YOUR_API_URL}
+          predicates:
+            - Path=/api/**

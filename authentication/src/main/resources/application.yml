@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: authentication-service
+
+  datasource:
+    url: {YOUR_DATABASE_URL}
+    driverClassName: {YOUR_DRIVER_CLASS_NAME}
+    username: {YOUR_USERNAME}
+    password: {YOUR_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+token:
+  signing:
+    key: {YOUR_KEY}
+
+app-config:
+  versao: '1.0.6'
+
+springdoc:
+  swagger-ui:
+    enabled: true
+
+firebase:
+  service-account-file: {YOUR_SERVICE_ACCOUNT_FILE} #nome do seu arquivo 'serviceAccountKey.json' se obtem esse arquivo no firabase
+
+mailjet:
+  apiKey: {YOUR_API_KEY}
+  apiSecretKey: {YOUR_API_SECRET_KEY}
+
+mail:
+  fromEmail: {YOUR_EMAIL}
+  fromName: {YOUR_NAME}
+
+server:
+  port: 8081
