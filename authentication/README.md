@@ -22,7 +22,7 @@ For an interactive way to engage with our API, you have two options:
 📮 Postman
 Import our detailed Postman collection using this link:
 
-[🔗 Postman Collection](https://api.postman.com/collections/18057863-2c37171a-009c-40b2-93ce-b6e15cd17098?access_key=PMAT-01H4VHFDNVCB16WS8PGZ63BFGW)
+[🔗 Postman Collection](https://elements.getpostman.com/redirect?entityId=18057863-2c37171a-009c-40b2-93ce-b6e15cd17098&entityType=collection)
 
 Our Postman collection provides examples of all available requests, complete with required headers and example body content.
 
